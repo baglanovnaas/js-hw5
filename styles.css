@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    background-image: url(images/bg-pattern-desktop.svg);
+    background-image: url(bg-pattern-desktop.svg);
     background-position: center;
     background-size: cover;
     display: flex;
