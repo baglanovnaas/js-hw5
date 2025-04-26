@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.first{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first img{
+    width: 200px;
+    margin-bottom: 120px;
+}
+.first .one-h1{
+    font-weight: 100;
+    font-size: 70px;
+    color: hsl(0, 36%, 70%);
+}
+.first .two-h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.first p{
+    font-family: serif;
+    font-size: 17px;
+    color: hsl(0, 36%, 70%);
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.main{
+    display: flex;
+}
+.main-img{
+    background-color: hsl(0, 93%, 68%);
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    right: 25px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.main img{
+    width: 35px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid hsl(0, 0%, 78%);
+}
